@@ -6,8 +6,8 @@ const App = () => {
     const [email, setemail] = useState("");
     const [password, setpassword] = useState("");
 
-    const [emailError, setemailError] = useState(false)
-    const [passwordError, setpasswordError] = useState(false)
+    const [emailError, setemailError] = useState(true)
+    const [passwordError, setpasswordError] = useState(true)
 
     let userArr=[
         {
