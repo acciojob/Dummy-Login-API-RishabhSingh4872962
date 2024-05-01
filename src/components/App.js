@@ -51,7 +51,7 @@ const App = () => {
                 setpassword("")
             }
             
-        }, 3000);
+        }, 4000);
     }
 
   return (
